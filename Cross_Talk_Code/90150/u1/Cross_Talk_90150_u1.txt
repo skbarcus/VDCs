@@ -1,0 +1,5 @@
+Wires      Total Counts    CT Counts    CT (%)
+0 1    10             0            0
+1 2    17             0            0
+2 3    32             0            0
+3 4    35             0            0

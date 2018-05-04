@@ -1,0 +1,1 @@
+CPU time = 44527.3 sec = 742.122 min = 12.3687 hours.   Real time = 44666.6 sec = 744.443 min = 12.4074 hours.

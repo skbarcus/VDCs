@@ -1,0 +1,2 @@
+Wires      Total Counts    CT Counts    CT (%)
+183 184    222             6            2.7027

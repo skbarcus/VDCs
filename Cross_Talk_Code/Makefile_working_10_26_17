@@ -1,0 +1,15 @@
+ROOTLIBS      = $(shell root-config --libs)
+ROOTGLIBS     = $(shell root-config --glibs)
+
+CXX           = g++
+CXXFLAGS      = -Wall  -fno-exceptions -fPIC  \
+	-DLINUXVERS -I$(ROOTSYS)/include -O
+
+LIBS = $(ROOTLIBS) $(ROOTGLIBS)
+
+vdc_testr_single_pair_makefile: vdc_testr_single_pair_makefile.C
+	$(CXX) -g $(CXXFLAGS) -o $@ $< -I. $(LIBS)
+
+
+
+
